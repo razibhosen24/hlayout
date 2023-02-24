@@ -1,0 +1,106 @@
+
+/*common start*/
+body{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0F2656;
+}
+/*common end*/
+/*header start*/
+header{
+/*	border: 1px solid black;*/
+	padding: 15px 0px;
+	border-bottom: 2px solid #EEF0F3;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+/*	border: 1px solid red;*/
+
+}
+.logo{
+	width: 10%;
+	float: left;
+	padding-top: 11px;
+/*	border: 1px solid gray;*/
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+/*	padding-top: 10px;*/
+}
+.menu{
+	width: 60%;
+	float: right;
+/*	border: 1px solid gray;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-weight: 700;
+	color: #0F2656;
+	padding: 0 30px;
+	display: inline-block;
+	transition: 0.3s;
+}
+.menu ul li a:hover{
+	color: #008AFF;
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+/*header end*/
+
+h2, section{
+	color: red;
+}
+
+div p{
+	color: blue;
+	font-size: 18px;
+}
+
+span > p{
+	color: green;
+	font-size: 18px;
+
+
+}
+
+h3 ~ article{
+	color: darkred;
+}
+
+h1[align] {
+	color: orange;
+}
+
+[title~="bmw"]{
+	width: 15%;
+}
+[lang|="en"]{
+	background: red;
+	color: white;
+}
+/*footer start*/
+footer{
+	width: 100%;
+	height: 80px;
+	background: #008AFF;
+	margin-top: 40px;
+}
+h5{
+	text-align: center;
+	padding-top: 35px;
+	color: #9ECEFF;
+}
+/*footer end*/

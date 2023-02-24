@@ -1,0 +1,163 @@
+/*common start*/
+body{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0F2656;
+}
+/*common end*/
+/*header start*/
+header{
+/*	border: 1px solid black;*/
+	padding: 15px 0px;
+	border-bottom: 2px solid #EEF0F3;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+/*	border: 1px solid red;*/
+
+}
+.logo{
+	width: 10%;
+	float: left;
+	padding-top: 11px;
+/*	border: 1px solid gray;*/
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+/*	padding-top: 10px;*/
+}
+.menu{
+	width: 60%;
+	float: right;
+/*	border: 1px solid gray;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-weight: 700;
+	color: #0F2656;
+	padding: 0 30px;
+	display: inline-block;
+	transition: 0.3s;
+}
+.menu ul li a:hover{
+	color: #008AFF;
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 50px 0;
+}
+.container2{
+	width: 68%;
+	margin: 0 auto;
+/*	border: 1px solid red;*/
+}
+.b_h1{
+	font-size: 40px;
+	margin: 0;
+  text-align: center;
+}
+.h1_p2{
+	width: 50%;
+	margin: 0 auto;
+}
+.b_p{
+	font-size: 16px;
+	text-align: center;
+}
+.b_img{
+	width: 80%;
+  margin: 0 auto;
+}
+.bimg{
+	width: 100%;
+}
+/*banner end*/
+
+/*pseudo start*/
+.pseudo{
+	width: 85%;
+/*	border: 1px solid red;*/
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.pseudo h1{
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 20px;
+  text-align: center;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+/*	border: 1px solid green;*/
+	overflow: hidden;
+}
+.wrapper div{
+	margin: 0 10px;
+	display: inline-block;
+}
+	
+.para{
+	width: 31%;
+	float: left;
+}
+.para p{
+	display: inline-block;
+    padding: 0px;
+    margin: 5px 0px;
+}
+.para1{
+	background: #FDEBED;
+/*	border: 1px solid black;*/
+}
+.para1 p:nth-child(2) {
+	color: red;
+}
+
+.para2{
+	background: #EBF9F4;
+/*	border: 1px solid blue;*/
+
+}
+
+.para2 p:nth-child(even) {
+	background: red;
+}
+.para3{
+	background: #FFF7E8;
+/*	border: 1px solid aqua;*/
+}
+.para3 p:nth-child(odd) {
+	background: red;
+}
+/*pseudo end*/
+/*footer start*/
+footer{
+	width: 100%;
+	height: 80px;
+	background: #008AFF;
+	margin-top: 40px;
+}
+h5{
+	text-align: center;
+	padding-top: 35px;
+	color: #9ECEFF;
+}
+/*footer end*/
